@@ -1,6 +1,6 @@
-import {congigureStore} from '@reduxjs/toolkit';
+import {congifureStore} from '@reduxjs/toolkit';
 import greetingsSlice  from './greetingsSlice';
-export const store = congigureStore({
+export const store = congifureStore({
     reducer: {
         // reducers
         greeting: greetingsSlice
