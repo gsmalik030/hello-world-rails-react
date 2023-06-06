@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
+  get 'root/index'
   namespace :api do
     namespace :v1 do
       resources :greetings
     end
   end
-  root 'static#index'
+  root 'root#index'
 end
