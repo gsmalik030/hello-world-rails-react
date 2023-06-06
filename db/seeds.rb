@@ -1,15 +1,15 @@
 greetings = [
-  "Aslam o Alikum",
-  "Hola",
-  "Hello",
+  'Aslam o Alikum',
+  'Hola',
+  'Hello',
   "What's up",
-  "How you doing",
-  "Hi",
-  "Salut",
+  'How you doing',
+  'Hi',
+  'Salut'
 ]
 
-puts "creating Greetings..."
+puts 'creating Greetings...'
 
 greetings.each do |greet|
-    Greeting.create!(greetings: greet)
+  Greeting.create!(greetings: greet)
 end
